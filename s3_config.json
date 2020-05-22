@@ -1,0 +1,6 @@
+{
+    "aws_access_key_id" : "XXXXXX", 
+    "aws_secret_access_key" : "XXXXXX",
+    "aws_session_token" : "XXXXXX",
+    "region" : "us-east-1"
+}
