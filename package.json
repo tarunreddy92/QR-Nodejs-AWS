@@ -1,0 +1,25 @@
+{
+  "name": "qr-nodejs-aws",
+  "version": "1.0.0",
+  "description": "Generate QR code image using Nodejs and save the images to AWS S3",
+  "main": "index.js",
+  "scripts": {
+    "test": "node createAndUploadQrCode.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarunreddy92/QR-Nodejs-AWS.git"
+  },
+  "keywords": [
+    "AWS",
+    "S3",
+    "node",
+    "QR-Codes"
+  ],
+  "author": "Tarun Reddy Nukala",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tarunreddy92/QR-Nodejs-AWS/issues"
+  },
+  "homepage": "https://github.com/tarunreddy92/QR-Nodejs-AWS#readme"
+}
