@@ -12,3 +12,4 @@ npm install
 ```bash
 node createAndUploadQrCode.js
 ```
+__Make sure that your AWS credentials are up to date in the aws credentials file__

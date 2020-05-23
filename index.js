@@ -1,5 +1,4 @@
 const AWS = require('aws-sdk');
-AWS.config.loadFromPath('./s3_config.json');
 const QRCode = require('qrcode');
 const S3_BUCKET = "poc-qr-codes";
 const s3bucket = new AWS.S3({ params: { Bucket: S3_BUCKET } });
@@ -44,7 +43,7 @@ function putBase64ImageInS3(base64Image, imageName) {
 }
 
 function saveFileToLocal(imageName, stringToEncode) {
-	const filePath = "C:\\Users\\treddy\\Documents\\Personal Projects\\QR-Nodejs-AWS-Lambda-Function\\QR_Codes\\"
+	const filePath = "C:\\Users\\treddy\\Documents\\Personal Projects\\QR-Nodejs-AWS\\QR_Codes\\"
 	QRCode.toFile("./QR_Codes/" + imageName + ".png", stringToEncode);
 	console.log("File saved to " + filePath + imageName);
 }
