@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tarunreddy92/QR-Nodejs-AWS.git"
+    "url": "https://github.com/tarunreddy92/QR-Nodejs-AWS.git"
   },
   "keywords": [
     "AWS",
